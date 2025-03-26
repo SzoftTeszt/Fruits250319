@@ -41,6 +41,7 @@ img{
   margin:.8rem 0;
   background-color: white;
   box-sizing: border-box;
+
 }
 
 
@@ -72,7 +73,7 @@ img{
 
 @media(min-width:481px){
   .box{
-    width:50%;
+    width:calc(50% - 10px);
     float:left;
   }
 }
